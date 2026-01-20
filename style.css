@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+
+#p3{
+    color: cyan;
+}
+#p4{
+    color: yellow;
+}
+.odd{
+    color: purple;
+}
