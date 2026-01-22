@@ -4,7 +4,7 @@ body{
 }
 
 @font-face{
-    src: url(open sans.ttf);
+    src: url("../fonts/open sans.ttf");
     font family: "open sans";
 }
 h1{
