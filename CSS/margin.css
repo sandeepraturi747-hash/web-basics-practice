@@ -1,0 +1,35 @@
+body{
+    margin:0px
+}
+
+.Box{
+    border:5px solid;
+    font-size: 5em;
+    width:  250px;
+    height: 150px;
+    
+}
+
+#box1{
+    background-color: hsl(0, 91%, 51%);
+    float: left;
+    margin-right: 10px;
+   
+}
+
+#box2{
+    background-color: hsl(180, 94%, 49%);
+    margin-top: 50px;
+    margin-right: 350px;
+    float: left;
+    
+}
+
+  div{
+    border: 5px solid;
+    height: 45px;
+    overflow: auto;
+  }
+
+
+  
