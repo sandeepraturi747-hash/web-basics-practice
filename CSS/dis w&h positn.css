@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(../centralpark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+
+.Box{
+    display: inline;
+}
+
+#H1{
+    border: 3px solid;
+    background-color: hsl(0, 100%, 50%);
+    width: 200px;
+    height: 200px;
+    
+}
+
+#H2{
+    border: 3px solid;
+    background-color: hsl(196, 93%, 51%);
+    width: 200px;
+    height: 200px;
+
+}
+
+#Dabha{
+    border: 5px solid;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    float: left;
+    text-align: center;
+    position: fixed;
+    background-color: hsl(0, 89%, 46%);
+
+    
+    
+}
+
+#Dabha1{
+    border: 2px solid;
+    width:100px;
+    height: 100px;
+    position: absolute;
+    background-color: hsl(176, 89%, 46%);
+    top: 70px;
+    left: 70px;
+
+    
+    
+}
+
+
+
+
+
