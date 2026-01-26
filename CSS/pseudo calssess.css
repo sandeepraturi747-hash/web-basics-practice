@@ -1,0 +1,76 @@
+button:hover{
+    font-size: 1.1em;
+    background-color: red;
+
+
+}
+
+a:link{
+    font-size: 2em;
+    color: hsl(208, 79%, 68%);
+}
+
+a:hover{
+    font-size: 1.5em;
+    color: hsl(0, 100%, 50%);
+}
+
+a:visited{
+    color: hsl(180, 100%, 50%);
+}
+
+li:hover{
+   font-size: 1.5em;
+    color: hsl(60, 100%, 50%);
+}
+
+li:not(:hover){
+    background-color: hsl(0, 0%, 50%);
+}
+
+
+li:nth-child(odd){
+    background-color: hsl(180, 100%, 50%);
+}
+
+
+#greetings p{
+    background-color: hsl(0, 83%, 60%);
+    padding: 10px;
+
+    display: none;
+}
+
+#greetings:hover p{
+    display: block;
+}
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: Italic;
+}
+
+p::first-line{
+    background-color: hsl(60, 73%, 69%);
+}
+
+P::selection{
+    color: hsl(120, 85%, 36%);
+    background-color: hsl(0, 0%, 41%);
+}
+
+
+
+
+
+
+#apple::after{
+    content: "🍎";
+}
+
+#fruits li::marker{
+    content: "✔️";
+    font-size: 1.2em;
+    color: hsl(0, 59%, 41%);
+
+}
