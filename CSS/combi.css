@@ -1,0 +1,33 @@
+#containers{
+    border: 3px solid;
+}
+
+#containers p{
+    background-color: hsl(0, 79%, 50%);
+}
+
+#containers>p{
+    background-color: hsl(180, 73%, 80%);
+}
+
+#containers~p{
+    background-color: hsl(60, 82%, 50%);
+}
+
+a:link{
+    color: hsl(0, 75%, 70%);
+
+}
+
+a:hover{
+    color: hsl(240, 84%, 60%);
+}
+
+a:active{
+    color: hsl(0, 59%, 41%);
+}
+
+a:visited{
+    color: #00ffff;
+}
+
