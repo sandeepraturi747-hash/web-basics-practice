@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    /* practised flex direction and justify content may not be in pushed file*/
+
+    border: 3px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    /* we can use here wrap if we have more elemnts compressed and also we can use 
+    align self for moving individual elements also flexbox is more than this but in this 
+    i m doing only this much for more check notes*/
+
+    column-gap: 1em;
+    row-gap: 1em;
+    
+}
+
+
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 8em;
+    
+}
+
+#box1{
+    background-color: hsla(0, 81%, 67%, 0.986);
+
+}
+
+#box2{
+    background-color: hsl(165, 79%, 74%);
+}
+
+#box3{
+    background-color: hsl(94, 80%, 67%);
+}
+
+#box4{
+    background-color: hsl(234, 72%, 66%);
+}
