@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text styles</title>
+    <style>
+     #head{
+        font-family: arial;
+        margin-bottom: 10px;
+        
+     }
+
+     #para1{
+        font-family: arial;
+        width: 500px;
+        margin-top: 0px;
+        
+     }
+
+     #para2{
+        font-family: arial;
+     }
+
+     #span1{
+        font-family: arial;
+        color: gray;
+     }
+
+      #span2{
+        font-family: arial;
+        color: rgb(7, 164, 188);
+     }
+
+     #head2{
+        font-family: arial;
+        font-size: 2em;
+        margin-bottom: 5px;
+        
+     }
+
+     #span3{
+        font-family: arial;
+        color: grey;
+        font-size: small;
+        font-weight: bold;
+        
+     }
+
+     #para3{
+        font-family: arial;
+        color: green;
+        margin-top: 0px;
+     }
+
+     #para4{
+        font-family: arial;
+        color: grey;
+        margin-top: 0px;
+     }
+
+     #span4{
+        font-family: arial;
+        color: rgb(228, 103, 103);
+        font-size: 1em;
+        font-weight: bold;
+        
+        
+     }
+
+     .box1{
+        font-family: arial;
+        color: rgb(228, 103, 103);
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 2px;
+        
+    }
+
+    .box2{
+        font-family: arial;
+        color: rgb(20, 17, 17);
+        font-size: 1.4em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+
+    .box3{
+        font-family: arial;
+        color: rgb(20, 17, 17);
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        
+    }
+
+    .box4{
+        font-family: arial;
+        color: rgb(97, 95, 95);
+        font-weight: bold;
+        text-align: center;
+        margin-top: 0px;
+        
+        
+    }
+
+    button{
+        background-color: rgba(5, 97, 189, 0.744);
+        color: white;
+        display: block;
+        margin: 20px auto;
+        height: 25px;
+        width: 50px;
+        border-radius: 10px;
+       /*withought putting button into div container or using flex it wont come to center this is also works but better to 
+       every line into conatiner and then every line will come to center */
+        
+    }
+
+    button:hover{
+        background-color: rgb(23, 244, 3);
+    }
+   </style>
+
+</head>
+<body>
+    <h4 id="head">freeCodeCamp.org <span id="span1">@freeCodeCamp 1h</span></h4>
+
+    <p id="para1">As a web developer, you'll want to make your projects easy to use and 
+        navigate around.
+    </p>
+    
+
+    <p id="para2">here <span id="span2">@chp_it</span> outlines the top skills new developers should have.</p>
+     <br>
+
+     <!--different exercise-->
+    <h3 id="head2">1,049.61 <span id="span3">USD</span></h3>
+    <p id="para3">+18.05 (1.75%) today</p>
+    <p id="para4">After hours 1,048.00 <span id="span4">-1.61 (0.15%)</span></p>
+
+    <br>
+
+
+    <p class="box1">New</p>
+    <p class="box2">MacBook pro</p>
+    <h1 class="box3">Supercharged for pros</h1>
+    <p class="box4">From $1999</p>
+    <button>Buy</button>
+
+
+</body>
+</html>
